@@ -1,0 +1,40 @@
+{
+  "name": "scaffolding",
+  "version": "1.0.0",
+  "description": "scaffolding per il corso",
+  "main": "main.js",
+  "scripts": {
+    "test": "karma start ./karma.conf.js",
+    "webdriver": "webdriver-manager start",
+    "e2e": "protractor protractor-conf.js"
+  },
+  "author": "Nicola Rizzo",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@types/jasmine": "^2.8.7",
+    "autoprefixer": "^9.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "css-loader": "^1.0.0",
+    "extract-loader": "^3.0.0",
+    "file-loader": "^2.0.0",
+    "http-server": "^0.11.1",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.2",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^3.0.5",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "protractor": "^5.4.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

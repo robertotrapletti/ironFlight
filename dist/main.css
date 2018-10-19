@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  text-align: center; }
+
+body {
+  padding: 9.708rem 4.854rem;
+  background-image: linear-gradient(to bottom right, #bf4095, #633654);
+  background-repeat: no-repeat; }
+
+button.hello {
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 0.809rem 1.618rem;
+  font: 1rem verdana;
+  border-radius: 30px;
+  border: none;
+  outline: none; }
+  button.hello:active {
+    background-color: #633654;
+    color: white; }
+
+div {
+  text-align: center;
+  margin: 4.854rem;
+  font: 3rem verdana;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold; }
+
+.version {
+  position: absolute;
+  bottom: 4.854rem;
+  right: 4.854rem;
+  font: 13px courier;
+  color: rgba(0, 0, 0, 0.54); }

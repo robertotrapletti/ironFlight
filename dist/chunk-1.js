@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{3:function(n,o,e){"use strict";e.r(o),e.d(o,"AnotherModule",function(){return r});var r={answer:42}}}]);
